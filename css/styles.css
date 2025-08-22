@@ -61,7 +61,7 @@
   --bs-body-font-size: 1rem;
   --bs-body-font-weight: 400;
   --bs-body-line-height: 1.5;
-  --bs-body-color: #D4AF37;
+  --bs-body-color: #b89629;
   --bs-body-bg: #000000;
   --bs-border-width: 1px;
   --bs-border-style: solid;
@@ -8128,12 +8128,10 @@ textarea.form-control-lg {
 .bg-primary {
   --bs-bg-opacity: 1;
 background: linear-gradient(
-  135deg,           /* Gradiente diagonal */
-  #000000 0%,        /* Preto sólido no início */
-  #000000 60%,       /* Preto continua até 60% */
-  #42310f 75%,       /* Dourado escuro */
-  #d4af37 90%,       /* Dourado clássico */
-  #fff8b0 100%       /* Brilho dourado no final */
+  to top,
+  #000000 0%,
+  #1c1705 80%,
+  #3a2f0c 100%
 ) !important;}
 
 .bg-secondary {
@@ -8167,7 +8165,7 @@ background: linear-gradient(
 }
 
 .bg-dark {
-  --bs-bg-opacity: 1;
+ 
   background-color: rgba(var(--bs-dark-rgb), var(--bs-bg-opacity)) !important;
 }
 
@@ -10935,7 +10933,7 @@ hr.divider-light {
 header.masthead {
   padding-top: 10rem;
   padding-bottom: calc(10rem - 4.5rem);
-  background: linear-gradient(to bottom, rgba(92, 77, 66, 0.8) 0%, rgba(92, 77, 66, 0.8) 100%), url("../assets/img/ChatGPT\ Image\ 21_08_2025\,\ 15_56_08.png");
+  background:url("../assets/img/ChatGPT\ Image\ 21_08_2025\,\ 15_56_08.png");
   background-position: center;
   background-repeat: no-repeat;
   background-attachment: scroll;
